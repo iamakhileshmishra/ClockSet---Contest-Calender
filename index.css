@@ -23,21 +23,20 @@ body {
 }
 
 #btn {
-  width: 70px;
+  width: 35px;
   border: none;
-  padding: 1px 0px;
-  border-radius: 15px;
-  background-color: #072446;
-  color: #8d580d;
+  padding: 1px;
+  border-radius: 5px;
+  background-color: #5498e7;;
+}
+#contest{
+  background-color: var(--primary-color);
+  color: #5498e7;;
+  border: none;
 }
 
 #contest-Calender {
   font-size: 0.8rem;
-}
-
-#btn:hover {
-  background-color: #072446;
-  color: #f4f3f0;
 }
 
 #span ,.label{
