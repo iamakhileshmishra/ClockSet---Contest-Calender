@@ -1,21 +1,21 @@
 {
-  "name": "clockset-v1",
+  "name": "clockset",
   "version": "1.0.0",
-  "description": "1. UI to make it more Clear & Attractive \r 2. Add Column for different Platform \r 3. Change the Time as per IST",
+  "description": "This is a Chrome Extension build to track all the Coding contest on different Platform",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Shubham-codes-docs/ClockSet-v1.git"
+    "url": "git+https://github.com/iamakhileshmishra/ClockSet---Contest-Calender.git"
   },
-  "author": "",
+  "author": "Akhilesh Kumar Mishra",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Shubham-codes-docs/ClockSet-v1/issues"
+    "url": "https://github.com/iamakhileshmishra/ClockSet---Contest-Calender/issues"
   },
-  "homepage": "https://github.com/Shubham-codes-docs/ClockSet-v1#readme",
+  "homepage": "https://github.com/iamakhileshmishra/ClockSet---Contest-Calender#readme",
   "dependencies": {
     "moment": "^2.29.4"
   }
