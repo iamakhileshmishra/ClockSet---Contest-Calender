@@ -6,6 +6,28 @@
   --border-color-dark: #3d5d7c;
 }
 
+/* For maintance purpose Only */
+.blink {
+  text-align: center;
+}
+.sp1 {
+  font-size: 25px;
+  font-family: cursive;
+  color: red;
+  animation: blink 1s linear infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* For maintance purpose Only */
 body {
   height: 300px;
   width: 400px;
@@ -27,11 +49,11 @@ body {
   border: none;
   padding: 1px;
   border-radius: 5px;
-  background-color: #5498e7;;
+  background-color: #5498e7;
 }
-#contest{
+#contest {
   background-color: var(--primary-color);
-  color: #5498e7;;
+  color: #5498e7;
   border: none;
 }
 
@@ -39,7 +61,8 @@ body {
   font-size: 0.8rem;
 }
 
-#span ,.label{
+#span,
+.label {
   font-size: 20px;
   font-family: "Akaya Telivigala", cursive;
   color: #5498e7;
