@@ -7,7 +7,7 @@
 }
 
 /* For maintance purpose Only */
-.blink {
+/* .blink {
   text-align: center;
 }
 .sp1 {
@@ -26,7 +26,7 @@
   100% {
     opacity: 1;
   }
-}
+} */
 /* For maintance purpose Only */
 body {
   height: 300px;
