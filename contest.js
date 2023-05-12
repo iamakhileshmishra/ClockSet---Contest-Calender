@@ -127,7 +127,7 @@ function toggleContenstVisibility(site){
   }
 }
 
-fetch("https://www.kontests.net/api/v1/leet_code")
+fetch("https://kontests.net/api/v1/leet_code")
   .then((data) => {
     //console.log(data);
     return data.json();
@@ -136,7 +136,7 @@ fetch("https://www.kontests.net/api/v1/leet_code")
     cards(sortContestResp(completedata), "leetcode");
   });
 
-fetch("https://www.kontests.net/api/v1/codeforces")
+fetch("https://kontests.net/api/v1/codeforces")
   .then((data) => {
     return data.json();
   })
@@ -145,7 +145,7 @@ fetch("https://www.kontests.net/api/v1/codeforces")
     cards(sortContestResp(completedata), "codeforces");
   });
 
-fetch("https://www.kontests.net/api/v1/code_chef")
+fetch("https://kontests.net/api/v1/code_chef")
   .then((data) => {
     return data.json();
   })
@@ -154,7 +154,7 @@ fetch("https://www.kontests.net/api/v1/code_chef")
     cards(sortContestResp(completedata), "codechef");
   });
 
-fetch("https://www.kontests.net/api/v1/at_coder")
+fetch("https://kontests.net/api/v1/at_coder")
   .then((data) => {
     return data.json();
   })
@@ -163,7 +163,7 @@ fetch("https://www.kontests.net/api/v1/at_coder")
     cards(sortContestResp(completedata), "at_coder");
   });
 
-fetch("https://www.kontests.net/api/v1/kick_start")
+fetch("https://kontests.net/api/v1/kick_start")
   .then((data) => {
     return data.json();
   })
